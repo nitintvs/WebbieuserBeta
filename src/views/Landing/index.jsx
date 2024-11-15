@@ -50,7 +50,7 @@ const DetailCard = ({ product }) => {
                             minHeight: "50px"
                         }}
                         gutterBottom component="span">
-                        {_.truncate(_.trim(product.name), { length: 30 })}
+                        {_.truncate(_.trim(product.name), { length: 20 })}
                     </Typography>
                     <Typography
                         sx={{

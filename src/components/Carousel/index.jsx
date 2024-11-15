@@ -27,7 +27,7 @@ const Carousel = (props) => {
                     perMove: 1,
                 }}
                 aria-label="My Favorite Images">
-                {props.children.map(child => {
+                {props?.children?.map(child => {
                     return <SplideSlide>
                         {child}
                     </SplideSlide>
@@ -46,7 +46,7 @@ const Carousel = (props) => {
                     perMove: 1,
                 }}
                 aria-label="My Favorite Images">
-                {props.children.map(child => {
+                {props?.children?.map(child => {
                     return <SplideSlide>
                         {child}
                     </SplideSlide>
@@ -65,7 +65,7 @@ const Carousel = (props) => {
                     perMove: 1,
                 }}
                 aria-label="My Favorite Images">
-                {props.children.map(child => {
+                {props?.children?.map(child => {
                     return <SplideSlide>
                         {child}
                     </SplideSlide>
@@ -84,7 +84,7 @@ const Carousel = (props) => {
                     perMove: 1,
                 }}
                 aria-label="My Favorite Images">
-                {props.children.map(child => {
+                {props?.children?.map(child => {
                     return <SplideSlide>
                         {child}
                     </SplideSlide>
